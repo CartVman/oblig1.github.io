@@ -99,7 +99,6 @@ main{
 .homepage-main {
   margin: 0;
   background-color: rgb(255, 255, 255);
-  background-size: cover;
   background-position: center;
   background-image: url("../pictures/ramen.jpg"); 
   background-repeat: no-repeat;
