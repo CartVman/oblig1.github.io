@@ -1,0 +1,264 @@
+@font-face {
+  font-family: ReggaeOne;
+  src: url(../font/Reggae_One/ReggaeOne-Regular.ttf);
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Header */
+
+#header{
+  background:linear-gradient(black, rgb(22, 21, 21));
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Courier New', Courier, monospace;
+} 
+
+#header > a{
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 10px;
+  color: white;
+  font-size: 35px;
+  vertical-align: middle;
+  font-family: ReggaeOne;
+  display: inline-block;
+}
+
+nav {
+  float: right;
+  margin: 10px 20px;
+  font-size: 20px;
+}
+
+#header ul > li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background:maroon;
+  border-radius: 5px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  padding: 14px 16px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover, .menu:hover .dropbtn {
+  color: black;
+  background-color:lightgray;
+  border-radius: 20px;
+}
+
+li.menu {
+  display: inline-block;
+}
+
+.dropdown-content a {
+  color: rgb(248, 247, 245);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+
+.menu:hover .dropdown-content {
+  display: block;
+}
+
+/* Main */
+
+main{
+  background-color: #67717E;
+  background-size: cover;
+  height: 75vh;
+}
+
+.about-main {
+  background-color: #67717E;
+  background-size: cover;
+  height: 220vh;
+}
+
+.homepage-main {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  background-image: url("../pictures/ramen.jpg"); 
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+/* Starters, Main Courses, and Drinks*/
+
+.container1 {
+  text-align: left;
+  padding: 25px;
+  font-family: ReggaeOne;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.container1 p {
+  justify-content: right;
+  padding: 30px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container-main-starter {
+  text-align: center;
+  font-family: ReggaeOne;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.container-drinks {
+  display: flex;
+  justify-content:space-between;
+  padding: 20px 350px;
+  font-family: ReggaeOne;
+  font-size: 18px;
+}
+
+/* Menu page */
+
+.container-menu {
+  display: flex;
+  justify-content: center;
+  padding: 100px 60px;
+}
+
+.container-menu-child { 
+  text-align: center;
+  background: #8b9aad;
+  box-sizing: border-box;
+  border-radius: 10%;
+  margin: 20px;
+  width: 500px;
+  padding: 40px 70px;
+  box-shadow: 5px 9px 4px rgb(5, 4, 4);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.container-menu-child a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-menu-child:hover {
+  color: black;
+  background-color:lightgray;
+  border-radius: 20px;
+}
+
+/* Contact page */
+
+.container-contact {
+  text-align: left;
+  font-family: ReggaeOne;
+  font-size: 18px;
+  margin: 20px;
+}
+
+/* Home Page */
+
+.container-homepage {
+  border:none;
+  box-sizing: border-box;
+  padding: 200px;
+  width: 100%;
+  color:white;
+  text-align: center;
+  font-family: ReggaeOne;
+}
+
+.container-homepage h1 {
+  font-size: 70px;
+}
+
+.container-homepage h3 {
+  padding:20px;
+}
+
+.button-container {
+    padding:30px;
+}
+
+.button {
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:maroon;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+}
+
+.button:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+/* Footer */
+
+.footer-content{
+  font-family: 'Courier New', Courier, monospace;
+  text-align:left;
+  background:black;
+  color: white;
+}
+
+.footer-child {
+  display: inline-block;
+  padding: 65px 80px;
+  font-size: 35px;  
+}
+
+.footer-child div{
+  font-size: 18px;
+}
+
+.footer-child a{
+  text-decoration: none;
+  color: white;
+  font-family: ReggaeOne;
+}
+
+hr{
+  height: 1px;
+  background-color: white;
+  border:none;
+}
+
+.footer-child > a > img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.footer-child > a > img:hover{
+  background: lightgray;
+}
+
